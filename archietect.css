@@ -235,9 +235,36 @@
 
 /* responsive */
 
-@media screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
       
     
 }
+
+@media only screen and (max-width:576px) {
+    .achievement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .feature-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+
+    }
+    
+}
+
 
 
